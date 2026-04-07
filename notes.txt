@@ -1,0 +1,58 @@
+remove os 3 partes | * c9a4d5d
+	
+
+parte3.txt | * 2f807d5
+	cGFyYQ== | para
+
+parte2.txt | * 3da4190
+	YmFzdGFudGU= | bastante
+
+parte1.txt | * 8a38589
+	ZXN0dWRv | estudo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+index.js | * 9a2ee74
+	cGFydF9kb2NrZXI= | part_docker
+
+
+
+run.sh - tenham
+tmp/hash - 349d34ca49da03a26a399f5feb25c5a9
+tmp/word - todos (palavra 2 pt2)
+
+index.js | * 79b9bbb
+	ZXNwZXJvIHF1ZQ== | espero que
+
+http://localhost:3000/flag?token=ctf = espero que (palavra 1 pt2)
+tmp/word - todos (palavra 2 pt2)
+docker image inspect ctf - tenham (palavra 3 pt2)
+
+ci.yaml echo "YSBhdWxh" > flag.txt = a aula
