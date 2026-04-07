@@ -1,6 +1,6 @@
 # 🔐 Escape Room DevOps 3 — Infra Comprometida
 
-Bem-vindo ao desafio **Escape Room DevOps 3**
+Bem-vindo ao desafio **Escape Room DevOps 3**a
 Sua missão é investigar uma infraestrutura comprometida e recuperar uma **A frase que está perdida** e escondida em diferentes camadas do sistema.
 
 ---
