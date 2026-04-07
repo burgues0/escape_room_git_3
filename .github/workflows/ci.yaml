@@ -22,10 +22,18 @@ jobs:
       - name: Deploy (fake)
         run: curl -X POST $RENDER_DEPLOY_HOOK
 
-      - name: Gerar flag
-        id: flag
+      - name: Gerar arquivos
         run: |
-          echo "YSBhdWxh" > flag.txt
+          # dica em "hash" (ASCII → texto)
+          echo "100 105 99 97 58 32 116 114 111 113 117 101 32 97 32 112 97 108 97 118 114 97 32 101 115 116 117 100 111 32 112 111 114 32 101 115 116 117 100 97 100 111" \
+          | awk '{for(i=1;i<=NF;i++) printf "%c",$i}' > dica.txt
 
-      - name: Expor resultado
-        run: cat flag.txt
+          # resultado em "hash" (ASCII → texto)
+          echo "97 32 97 117 108 97" \
+          | awk '{for(i=1;i<=NF;i++) printf "%c",$i}' > resultado.txt
+
+      - name: Expor resultados
+        run: |
+          cat dica.txt
+          echo ""
+          cat resultado.txt
